@@ -8,5 +8,6 @@
 
         public string ServiceType { get; set; }
         public decimal Amount { get; set; }
+       //nmfnbbfnbnsdfzvcmn
     }
 }
