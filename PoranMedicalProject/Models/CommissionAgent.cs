@@ -3,7 +3,7 @@
     public class CommissionAgent
     {
         public int AgentID { get; set; }
-        public int UserID { get; set; }
+        public string UserID { get; set; }
         public ApplicationUser ApplicationUser { get; set; }
 
         public string FirstName { get; set; }

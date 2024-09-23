@@ -6,7 +6,7 @@ namespace PoranMedicalProject.Models.DAL
 {
     public class AppDbContext(DbContextOptions options) : IdentityDbContext<ApplicationUser>(options)
     {
-      
+
 
         // DbSets for your entities
         public DbSet<ApplicationUser> ApplicationUsers { get; set; }
